@@ -1,5 +1,5 @@
 
-export const ItemListConteiner = (greeting) => {
+export const ItemListConteiner = ({greeting}) => {
     return (
     <div> { greeting }</div>
     )
